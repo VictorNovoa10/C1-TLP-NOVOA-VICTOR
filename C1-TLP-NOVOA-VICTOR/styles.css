@@ -1,0 +1,17 @@
+/* ===== Estilos personalizados que complementan TailwindCSS ===== */
+
+/* Imagen hero de la portada */
+.img-hero {
+    max-width: 225px;
+    margin: 0 auto;
+}
+
+.img-hero img {
+    max-height: 225px;
+    object-fit: cover;
+}
+
+/* Eliminar margen por defecto de figure */
+figure {
+    margin: 0;
+}
